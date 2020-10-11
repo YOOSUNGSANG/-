@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="EMP_TO_BONUS_TRG" directorySegmentName="seg_0" id="A0050E86-2B05-B95C-A65C-0E03FD13BD08">
+<sourceConnName>WEB</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>EMP_TO_BONUS_TRG</sourceObjName>
+<createdBy>유성상</createdBy>
+<createdTime>2020-10-11 12:37:33 UTC</createdTime>
+<ownerDesignName>4조</ownerDesignName>
+<actions>INSERT, UPDATE, DELETE</actions>
+<body><![CDATA[BEGIN
+    IF INSERTING THEN --emp테이블에 insert가 수행되면 bonus테이블에도 insert 수행
+        INSERT INTO bonus ( ename, job,sal,comm)
+        VALUES (:NEW.ename,:NEW.job, :NEW.sal, :NEW.comm );
+
+
+    ELSIF UPDATING THEN --emp테이블 update가 되면 bonus테이블도 update수행
+        UPDATE bonus
+        SET ename = :NEW.ename --새로운 값으로 bonus테이블의 행 변경
+            , job = :NEW.job
+            , sal = :NEW.sal
+            , comm = :NEW.comm
+        WHERE ename = :OLD.ename --기존값으로 비교해서 모든 행이 바뀌지 않도록 조절
+        AND job = :OLD.job
+        AND sal = :OLD.sal
+        AND comm = :OLD.comm;
+
+
+    ELSIF DELETING THEN
+        DELETE bonus
+        WHERE ename = :OLD.ename --기존값으로 비교해서 모든 행이 바뀌지 않도록 조절
+            AND job = :OLD.job
+            AND sal = :OLD.sal
+            AND comm = :OLD.comm;
+
+    END IF;
+END;
+]]></body>
+<triggerTime>BEFORE</triggerTime>
+<owner>690292BD-351F-EE1D-4F94-AE312BB915EC</owner>
+<table>342D4AE7-37AB-DC84-8EDC-4BA8A13AE991</table>
+</TriggerOraclev10g>

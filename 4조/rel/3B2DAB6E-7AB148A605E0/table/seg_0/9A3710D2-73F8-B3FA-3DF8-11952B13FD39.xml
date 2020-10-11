@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A3710D2-73F8-B3FA-3DF8-11952B13FD39" schemaObject="D2076B02-7971-C9E3-9C51-B3D8DD634835" name="EMP_HIRE">
+<sourceConnName>WEB</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>EMP_HIRE</sourceObjName>
+<createdBy>유성상</createdBy>
+<createdTime>2020-10-11 12:37:33 UTC</createdTime>
+<ownerDesignName>4조</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPNO" id="34B8EC55-029C-C606-B23C-17E1EE916CB6">
+<sourceConnName>WEB</sourceConnName>
+<sourceObjSchema>EMP_HIRE</sourceObjSchema>
+<sourceObjName>EMPNO</sourceObjName>
+<createdBy>유성상</createdBy>
+<createdTime>2020-10-11 12:37:33 UTC</createdTime>
+<ownerDesignName>4조</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENAME" id="8CC09879-B456-3413-7B04-667B9EAEC861">
+<sourceConnName>WEB</sourceConnName>
+<sourceObjSchema>EMP_HIRE</sourceObjSchema>
+<sourceObjName>ENAME</sourceObjName>
+<createdBy>유성상</createdBy>
+<createdTime>2020-10-11 12:37:33 UTC</createdTime>
+<ownerDesignName>4조</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HIREDATE" id="9EC0EDF0-6C30-0348-BD23-A13123296DB8">
+<sourceConnName>WEB</sourceConnName>
+<sourceObjSchema>EMP_HIRE</sourceObjSchema>
+<sourceObjName>HIREDATE</sourceObjName>
+<createdBy>유성상</createdBy>
+<createdTime>2020-10-11 12:37:33 UTC</createdTime>
+<ownerDesignName>4조</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

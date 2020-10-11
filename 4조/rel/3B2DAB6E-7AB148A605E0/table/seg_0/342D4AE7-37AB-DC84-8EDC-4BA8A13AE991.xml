@@ -1,0 +1,193 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="342D4AE7-37AB-DC84-8EDC-4BA8A13AE991" schemaObject="D2076B02-7971-C9E3-9C51-B3D8DD634835" name="EMP">
+<sourceConnName>WEB</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>EMP</sourceObjName>
+<createdBy>유성상</createdBy>
+<createdTime>2020-10-11 12:37:33 UTC</createdTime>
+<ownerDesignName>4조</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPNO" id="D843E7AA-E50B-ED2A-D56D-2107FD7112AD">
+<sourceConnName>WEB</sourceConnName>
+<sourceObjSchema>EMP</sourceObjSchema>
+<sourceObjName>EMPNO</sourceObjName>
+<createdBy>유성상</createdBy>
+<createdTime>2020-10-11 12:37:33 UTC</createdTime>
+<ownerDesignName>4조</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENAME" id="9E1BF15F-69B2-8BC6-DDCA-360F8BBB67B8">
+<sourceConnName>WEB</sourceConnName>
+<sourceObjSchema>EMP</sourceObjSchema>
+<sourceObjName>ENAME</sourceObjName>
+<createdBy>유성상</createdBy>
+<createdTime>2020-10-11 12:37:33 UTC</createdTime>
+<ownerDesignName>4조</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JOB" id="B51678E1-E107-9DF7-CDDC-52D2DD536501">
+<sourceConnName>WEB</sourceConnName>
+<sourceObjSchema>EMP</sourceObjSchema>
+<sourceObjName>JOB</sourceObjName>
+<createdBy>유성상</createdBy>
+<createdTime>2020-10-11 12:37:33 UTC</createdTime>
+<ownerDesignName>4조</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MGR" id="F2CA8307-D86E-2D3D-8971-CEEF493CA349">
+<sourceConnName>WEB</sourceConnName>
+<sourceObjSchema>EMP</sourceObjSchema>
+<sourceObjName>MGR</sourceObjName>
+<createdBy>유성상</createdBy>
+<createdTime>2020-10-11 12:37:33 UTC</createdTime>
+<ownerDesignName>4조</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HIREDATE" id="959BD2C5-7755-C6B8-5A3F-80511322726C">
+<sourceConnName>WEB</sourceConnName>
+<sourceObjSchema>EMP</sourceObjSchema>
+<sourceObjName>HIREDATE</sourceObjName>
+<createdBy>유성상</createdBy>
+<createdTime>2020-10-11 12:37:33 UTC</createdTime>
+<ownerDesignName>4조</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SAL" id="E007146B-9C36-1586-E70B-A404404B144B">
+<sourceConnName>WEB</sourceConnName>
+<sourceObjSchema>EMP</sourceObjSchema>
+<sourceObjName>SAL</sourceObjName>
+<createdBy>유성상</createdBy>
+<createdTime>2020-10-11 12:37:33 UTC</createdTime>
+<ownerDesignName>4조</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMM" id="EF9C223D-204F-607F-0628-092E0621C516">
+<sourceConnName>WEB</sourceConnName>
+<sourceObjSchema>EMP</sourceObjSchema>
+<sourceObjName>COMM</sourceObjName>
+<createdBy>유성상</createdBy>
+<createdTime>2020-10-11 12:37:33 UTC</createdTime>
+<ownerDesignName>4조</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPTNO" id="7E398A6E-EC72-C702-FA3A-CB0BED844060">
+<sourceConnName>WEB</sourceConnName>
+<sourceObjSchema>EMP</sourceObjSchema>
+<sourceObjName>DEPTNO</sourceObjName>
+<createdBy>유성상</createdBy>
+<createdTime>2020-10-11 12:37:33 UTC</createdTime>
+<ownerDesignName>4조</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D83F62F-092F-7878-4F72-75D0F265A220" referredColumn="2594391C-A053-3D11-321C-7471999C47CA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="291C425A-4B38-2CDC-E0B2-85BDDE2DE909" name="PK_EMP">
+<sourceConnName>WEB</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_EMP</sourceObjName>
+<createdBy>유성상</createdBy>
+<createdTime>2020-10-11 12:37:33 UTC</createdTime>
+<ownerDesignName>4조</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D843E7AA-E50B-ED2A-D56D-2107FD7112AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1820DBB8-0CCB-D345-3835-BFAD461B61D3" schemaObject="D2076B02-7971-C9E3-9C51-B3D8DD634835" name="IDX_EMP_DEPTNO_EANME">
+<sourceConnName>WEB</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>IDX_EMP_DEPTNO_EANME</sourceObjName>
+<createdBy>유성상</createdBy>
+<createdTime>2020-10-11 12:37:33 UTC</createdTime>
+<ownerDesignName>4조</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E398A6E-EC72-C702-FA3A-CB0BED844060"/>
+<colUsage columnID="9E1BF15F-69B2-8BC6-DDCA-360F8BBB67B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2BA6768D-B793-17C9-C79C-D9795784CF41" schemaObject="D2076B02-7971-C9E3-9C51-B3D8DD634835" name="PK_EMP">
+<sourceConnName>WEB</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_EMP</sourceObjName>
+<createdBy>유성상</createdBy>
+<createdTime>2020-10-11 12:37:33 UTC</createdTime>
+<ownerDesignName>4조</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D843E7AA-E50B-ED2A-D56D-2107FD7112AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9590C81E-F6E4-7CA8-8881-0E9175492E6F" name="FK_DEPTNO">
+<createdBy>유성상</createdBy>
+<createdTime>2020-10-11 12:37:33 UTC</createdTime>
+<ownerDesignName>4조</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E398A6E-EC72-C702-FA3A-CB0BED844060"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
